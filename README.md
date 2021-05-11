@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Planner
+
+## Demo
+
+I will add once the project is done
+
+## Architecture
+
+## Documentation
+
+[Check Google Doc](https://docs.google.com/document/d/1wxKZsryeIPmO45gGoMlBIx_ITMmyDKWLPLA3ZStiw6U/edit?usp=sharing)
+
+## Design
+
+##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+`npx create-react-app my-app`
 
 ## Available Scripts
 
