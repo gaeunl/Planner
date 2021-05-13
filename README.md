@@ -12,6 +12,10 @@ I will add once the project is done
 
 ## Design
 
+## logo.svg
+
+Text based logo - [click here](https://svglogomaker.com/)
+
 ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
