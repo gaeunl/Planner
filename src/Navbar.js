@@ -2,18 +2,18 @@ import React, {useEffect} from 'react';
 import { links } from './data';
 import {GiHamburgerMenu} from 'react-icons/gi'
 
-import logo from './logo.svg'
+import logo from './Capture.svg'
 
 const Navbar = () => {
     return(
         <nav className="nav-center">
             <div className="nav-header">
-                <img src={logo} alt="planner logo"></img>
+                <img className="logo" src={logo} alt="planner logo"></img>
                 <button className="nav-toggle">
                     <GiHamburgerMenu/>
                 </button>
             </div>
-            <div className="nav-links">
+            <div className="nav-links show-container">
                 <ul className="links">
                     <li>
                         <a href='#'>home</a>
