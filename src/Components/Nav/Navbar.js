@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
 import { links } from './data';
-import {GiHamburgerMenu} from 'react-icons/gi'
-
-import logo from './Capture.svg'
+import {GiHamburgerMenu} from 'react-icons/gi';
+import logo from '../../Capture.svg';
 
 const Navbar = () => {
     return(

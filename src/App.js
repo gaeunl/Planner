@@ -1,12 +1,11 @@
-import './App.css';
-import Navigation from './Navbar'
+import Navigation from './Components/Nav/Navbar'
+import Sidebar from './Components/Nav/Sidebar'
 
 function App() {
   return (
     <div className="">
-      <header className="">
-        <Navigation/>
-      </header>
+      <Navigation/>
+      <Sidebar/>
     </div>
   );
 }
