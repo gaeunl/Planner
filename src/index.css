@@ -7,9 +7,10 @@
 :root {
   /* primary color */
   --clr-primary-1: hsl(205, 100%, 67%);
-  --clr-primary-2: hsl(236, 100%, 51%);
+  --clr-primary-2: hsl(200, 4%, 16%);
   --clr-primary-3: hsl(236, 100%, 80%);
   --clr-primary-4: hsl(204, 100%, 94%);
+  --clr-primary-5: hsl(236, 100%, 51%);
   --clr-white: #fff;
 
   --transition: all 0.3s linear;
