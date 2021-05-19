@@ -99,7 +99,8 @@ nav {
   transition: var(--transition);
 }
 @media screen and (min-width: 800px) {
-  .nav-center {
+  .nav-center,
+  .content-center {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;

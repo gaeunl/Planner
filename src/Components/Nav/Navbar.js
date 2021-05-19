@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import logo from '../../Capture.svg';
 import Links from './Links';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
@@ -9,7 +10,9 @@ const Navbar = () => {
     return(
         <nav className="nav-center">
             <div className="nav-header">
-                <img className="logo" src={logo} alt="planner logo"></img>
+                <Link to="/">
+                    <img className="logo" src={logo} alt="planner logo"></img>
+                </Link>
                 <button className="nav-toggle" onClick = {()=>setShowLinks(!showLinks)}>
                     <GiHamburgerMenu/>
                 </button>

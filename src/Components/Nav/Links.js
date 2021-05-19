@@ -1,6 +1,6 @@
 import React, {useRef, useEffect} from 'react';
 import {links} from './data';
-
+import {Link} from 'react-router-dom';
 
 const Links = (props) => {
 
@@ -14,7 +14,6 @@ const Links = (props) => {
         }else{
             linksContainerRef.current.style.height = '0px'
         }
-        console.log(props);
     },[props])
 
     return(
@@ -23,9 +22,7 @@ const Links = (props) => {
                 {links.map((link) => {
                     const{url, text, id} = link;
                     return(
-                        <li key={id}>
-                            <a href={url}>{text}</a>
-                        </li>
+                        <Link to={url} id={id}>{text}</Link>
                     )
                 })}
             </ul>
