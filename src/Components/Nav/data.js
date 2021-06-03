@@ -19,4 +19,14 @@ export const links = [
         url:'/todo',
         text: 'todo',
     },
+    {
+        id: 5,
+        url:'/bucketList',
+        text: 'bucket list',
+    },
+    {
+        id: 6,
+        url:'/resolution',
+        text: 'resolution',
+    },
 ]

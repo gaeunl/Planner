@@ -22,6 +22,11 @@ function App() {
           <Route exact path="/todo">
             <Home/>
           </Route>
+          <Route exact path="/bucketList">
+            <Home/>
+          </Route><Route exact path="/resolution">
+            <Home/>
+          </Route>
           <Route exact path="*">
             <p>Error!!</p>
           </Route>
